@@ -1,0 +1,95 @@
+git init
+El comando git init crea un nuevo repositorio Git o reinicia uno existente.  
+
+git clone <copied_URL>
+Normalmente copia un repositorio existente, incluyendo registros y versiones, desde servidores remotos como GitHub o GitLab a tu máquina local. 
+
+git status
+archivos modificados (archivos modificados pero no puestos en escena).
+archivos no rastreados (archivos que Git no está rastreando).
+archivos preparados (archivos preparados y listos para ser enviados). 
+
+git add 
+Añade tus cambios al área de preparación. Indica a Git que el repositorio debe actualizar estos cambios una vez que el usuario ejecute el comando confirmar.
+
+git commit -m "commit_message"
+Guarda los cambios que has realizado (o puesto en escena) en el repositorio local. Cada vez que ejecutas git commit, Git crea una instantánea de tu repositorio en ese momento. Esto te permite volver a una confirmación anterior siempre que sea necesario.
+
+git remote add crea una conexión entre tu repositorio Git local y el repositorio Git remoto, permitiéndote introducir y extraer cambios entre ellos:
+
+
+git remote add <repo_name> <remote_url>
+crea una conexión entre tu repositorio Git local y el repositorio Git remoto, permitiéndote introducir y extraer cambios entre ellos
+
+git push <remote> <branch>
+git push sincroniza tu repositorio remoto con el repositorio local. Una vez que ejecutes este comando, el repositorio remoto reflejará todos los cambios que hayas confirmado localmente.
+
+git pull origin feature-branch
+El comando git pull combina dos comandos: git fetch y git merge. 
+En primer lugar, git fetch recupera todos los cambios del repositorio remoto, incluidos los nuevos commits, etiquetas y ramas. A continuación, se ejecuta git merge, integrando esos cambios en la rama local actual. 
+
+git fetch origin
+te permite revisar los cambios en el repositorio remoto antes de fusionarlos en el local. Descarga los cambios y actualízalos en ramas de seguimiento remotas. Para los que no estén familiarizados, las ramas de seguimiento remoto son copias de ramas de repositorios remotos. 
+
+git branch 
+git branch lista, crea o elimina ramas. Una rama es otra versión de tu repositorio. 
+
+git checkout -b feature_branch
+Cambia de rama: Antes de git 2.23, el comando git checkout branch_name se utilizaba para cambiar de tu rama actual a otra. Pero no era sólo para cambiar de la existente; también puedes crear y cambiar a una nueva rama.
+git checkout -- <file-name>
+Restaurar archivos: Puedes descartar los cambios que hayas hecho en un archivo y restaurarlo a su versión anterior con el siguiente comando.
+
+git merge
+Si has realizado algún trabajo en una nueva rama, puedes fusionarla con la rama principal utilizando git merge para implementar los cambios. 
+
+git rebase
+ es otra forma de integrar cambios entre ramas, pero funciona de forma distinta a git merge. Fusionar conserva el historial completo tanto de la rama principal como de la rama de características. Rebase, por otro lado, sobrescribe el historial de confirmaciones para hacerlo lineal y limpio.
+
+git log
+muestra todo el historial de confirmaciones de tu rama actual. Incluye cuatro campos clave: confirmación, autor, fecha y mensaje de confirmación. 
+
+git diff 
+muestra las diferencias entre varios estados de tu repositorio, ya sea comparando tu directorio actual con el área de preparación, el área de preparación con la última confirmación, o incluso dos archivos o ramas, lo que especifiques.
+
+git reset 
+te permite deshacer cambios restableciendo el HEAD actual a un estado anterior específico. Para mover el HEAD a un commit anterior, tienes tres variantes: "suave", "mixta" y "dura" para utilizarlas con el comando reiniciar. 
+
+git checkout -b <nombre-rama>
+Crear y cambiar a una nueva rama.
+
+git branch -D MejoraA 
+Eliminar una rama definitivamente 
+
+
+git merge <rama-con-cambios>
+Si estamos posicionados en la rama de destino (a unir cambios):
+git merge <rama-con-cambios> <rama-destino>
+Si no estamos posicionados en la rama de destino
+
+
+git fetch
+permite actualizar el repositorio local con los
+cambios del repositorio remoto.
+
+git fetch origin
+Obtener los cambios del repositorio remoto. Permite actualizar el repositorio local
+con todas las ramas del repositorio remoto.
+
+git fetch origin main
+Obtener los cambios de una rama en particular del repositorio remoto. Permite
+actualizar una rama del repositorio local con la correspondiente del repositorio
+remoto.
+
+git pull <<remote>>
+El comando principal git pull, permite fusionar el repositorio local con los
+cambios del repositorio remoto.
+
+git pull origin
+Fusionar la rama activa con la rama del repositorio remoto.
+
+git pull origin main
+Fusionar una rama en particular con la correspondiente del repositorio remoto.
+
+git pull --no-commit <remote>
+Obtener los cambios del repositorio remoto pero, no se crea una nueva
+confirmación.
