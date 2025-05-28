@@ -7,12 +7,13 @@ Merced es una marca de ropa que busca exhibir sus productos al mundo a través d
 
 
 ## Posibles Funcionalidades o Áreas de Enfoque Inicial:
-<!--Pendiente -->
+las posibles funcionalidades son:  un home donde se muestren las distintas secciones, un catalogo mostrando fotos, precios y talles de la ropa según la seccion seleccionada, un carrito de compras donde se pueda ver los productos seleccionados y el total del pedido, un formulario de contacto y la posibilidad de un diseño responsive.
 
 
 ### Lista de integrantes y habilidades:
 - Luciano Di Leo.
-- Pedro Gonzalez.
+- Pedro Gonzalez: tengo experiencia en HTML, CSS Y JavaScript, realice algunos proyectos web.
+
 - Daniela Romero: tengo experiencia en HTML, CSS, PHP, tambien tengo experiencia en el lenguaje C# y hecho sistemas de compras, python es otro de los lenguajes que conosco y hecho sistemas de compras con python, SQL Server es otra herramienta que se utilizar y manejar y creado bases de datos con ella.
 
 - Marcelo viera: Tengo conocimientos en SQL server, python, LINUX y he realizado testing de software, actualmente realizo soporte tecnico de un software para heladerias.
