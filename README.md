@@ -23,7 +23,7 @@ Usuario 4: Como usuario de la tienda online Merced, quisiera que el sitio cuente
 
 ### Lista de integrantes y habilidades:
 - Luciano Di Leo: Realice un curso básico de desarrollo web donde obtuve los conocimientos en HTML, CSS y JavaScript. Además he realizado algunos proyectos utilizando esos mismos conocimientos, sumando con un poco de python. 
-- Pedro Gonzalez.
+- Pedro Gonzalez: Tengo conocimientos basicos de HTML, CSS y JavaScript, tambien realice algunos proyectos de desarrollo.
 - Daniela Romero: Tengo experiencia en HTML, CSS, PHP, tambien tengo experiencia en el lenguaje C# y hecho sistemas de compras, python es otro de los lenguajes que conosco y hecho sistemas de compras con python, SQL Server es otra herramienta que se utilizar y manejar y creado bases de datos con ella.
 
 - Marcelo viera: Tengo conocimientos en SQL server, python, LINUX y he realizado testing de software, actualmente realizo soporte tecnico de un software para heladerias.
