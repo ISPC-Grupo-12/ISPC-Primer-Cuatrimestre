@@ -10,6 +10,17 @@ Merced es una marca de ropa que busca exhibir sus productos al mundo a través d
 <!--Pendiente -->
 
 
+## Historia de usuario
+
+Usuario 1: Como un usuario de la tienda online Merced, quiero que tenga un menú de los productos y poder filtrar los mismos, para poder encontrar lo que busco con más facilidad.
+
+Usuario 2: Como un usuario de la tienda online Merced, quiero poder contactarme con los vendedores atraves de un numero de contacto de WhatsApp o gmail, para ante cualquier duda que surja poder consultar con los vendedores.  
+
+Usuario 3: Como usuario de la tienda online Merced, quisiera que el sitio cuente con un carrito de compras y una sección de pagos que muestre los métodos disponibles, para así contar con diferentes opciones a la hora de pagar.
+
+Usuario 4: Como usuario de la tienda online Merced, quisiera que el sitio cuente con un apartado de redes sociales donde pueda ver referencias y comentarios de clientes anteriores, para así conocer la reputación y confianza que tiene la tienda.
+
+
 ### Lista de integrantes y habilidades:
 - Luciano Di Leo: Realice un curso básico de desarrollo web donde obtuve los conocimientos en HTML, CSS y JavaScript. Además he realizado algunos proyectos utilizando esos mismos conocimientos, sumando con un poco de python. 
 - Pedro Gonzalez.
