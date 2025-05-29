@@ -11,9 +11,10 @@ Merced es una marca de ropa que busca exhibir sus productos al mundo a través d
 
 
 ### Lista de integrantes y habilidades:
-- Luciano Di Leo.
+- Luciano Di Leo: Realice un curso básico de desarrollo web donde obtuve los conocimientos en HTML, CSS y JavaScript. Además he realizado algunos proyectos utilizando esos mismos conocimientos, sumando con un poco de python. 
 - Pedro Gonzalez.
-- Daniela Romero: tengo experiencia en HTML, CSS, PHP, tambien tengo experiencia en el lenguaje C# y hecho sistemas de compras, python es otro de los lenguajes que conosco y hecho sistemas de compras con python, SQL Server es otra herramienta que se utilizar y manejar y creado bases de datos con ella.
+- Daniela Romero: Tengo experiencia en HTML, CSS, PHP, tambien tengo experiencia en el lenguaje C# y hecho sistemas de compras, python es otro de los lenguajes que conosco y hecho sistemas de compras con python, SQL Server es otra herramienta que se utilizar y manejar y creado bases de datos con ella.
 
-- Marcelo viera.
+- Marcelo viera: Tengo conocimientos en SQL server, python, LINUX y he realizado testing de software, actualmente realizo soporte tecnico de un software para heladerias.
+
 - Lara Gele: mis conocimientos se enfocan en del desarrollo de paginas web utilizando HTML, CSS, JavaScript y React. He realizado diversos proyectos prácticos para afianzar mis conocimientos y habilidades, desde una tienda de hamburguesas hasta una de plantas y flores.
